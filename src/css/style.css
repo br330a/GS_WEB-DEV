@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #2E7D32;
+    --secondary-color: #1565C0;
+
+    --background-color: #F5F7FA;
+
+    --dark-color: #1F2937;
+
+    --white-color: #FFFFFF;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    background-color: var(--background-color);
+    color: var(--dark-color);
+}
+
+.section {
+    padding: 100px 10%;
+}
+
+h1,h2,h3 {
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
