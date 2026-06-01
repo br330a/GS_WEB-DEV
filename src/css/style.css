@@ -30,7 +30,6 @@ p {
 
 /* header */
 .header{
-
     position: fixed;
 
     top: 0;
@@ -48,7 +47,6 @@ p {
 }
 
 .navbar{
-
     display: flex;
 
     justify-content: space-between;
@@ -60,7 +58,6 @@ p {
 }
 
 .logo{
-
     font-size: 1.8rem;
 
     font-weight: 700;
@@ -70,7 +67,6 @@ p {
 }
 
 .nav-links{
-
     display: flex;
 
     gap: 30px;
@@ -78,7 +74,6 @@ p {
 }
 
 .nav-links a{
-
     font-weight: 500;
 
     transition: 0.3s;
@@ -86,15 +81,23 @@ p {
 }
 
 .nav-links a:hover{
-
     color: var(--secondary-color);
 
 }
 
+.section {
+    padding: 120px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
 /* HERO */
 
 .hero{
-
     min-height: 100vh;
 
     display: flex;
@@ -117,7 +120,6 @@ p {
 }
 
 .hero-content{
-
     display: flex;
 
     align-items: center;
@@ -133,13 +135,11 @@ p {
 }
 
 .hero-text{
-
     flex: 1;
 
 }
 
 .hero-image{
-
     flex: 1;
 
     display: flex;
@@ -151,7 +151,6 @@ p {
 }
 
 .hero-image img{
-
     max-width: 500px;
 
     border-radius: 10px;
@@ -161,7 +160,6 @@ p {
 }
 
 .hero h1{
-
     font-size: 3.5rem;
 
     margin-bottom: 25px;
@@ -169,7 +167,6 @@ p {
 }
 
 .hero p{
-
     font-size: 1.2rem;
 
     margin-bottom: 40px;
@@ -177,7 +174,6 @@ p {
 }
 
 .btn-primary{
-
     display: inline-block;
 
     padding: 15px 35px;
@@ -193,7 +189,6 @@ p {
 }
 
 .btn-primary:hover{
-
     background-color: var(--secondary-color);
 
     transform: translateY(-3px);
@@ -202,7 +197,6 @@ p {
 
 /* cards */
 .cards-container{
-
     display: flex;
 
     justify-content: center;
@@ -219,21 +213,23 @@ p {
 
     background-color: white;
 
-    padding: 30px;
+    padding: 35px;
 
-    border-radius: 12px;
+    border-radius: 16px;
 
-    width: 280px;
+    width: 300px;
 
-    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 
-    transition: 0.3s;
+    transition: all 0.3s ease;
 
 }
 
 .card:hover{
 
-    transform: translateY(-5px);
+    transform: translateY(-10px);
+
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
 
 }
 
