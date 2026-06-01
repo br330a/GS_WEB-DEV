@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EcoSafe</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <div class="logo">
+                EcoSafe
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#problema">Problema</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+
+                <h1>
+                    Tecnologia Espacial para Prevenção de Desastres Naturais
+                </h1>
+
+                <p>
+                    A EcoSafe utiliza satélites e inteligência artificial
+                    para monitorar riscos ambientais e emitir alertas antecipados.
+                </p>
+
+                <a href="#problema" class="btn-primary">
+                    Conheça a Solução
+                </a>
+
+            </div>
+
+        </section>
+
+        <section id="problema" class="section">
+
+            <h2>O Problema</h2>
+
+            <p>
+                Enchentes, deslizamentos e tempestades extremas
+                afetam milhões de pessoas todos os anos.
+            </p>
+
+        </section>
+
+        <section id="tecnologia" class="section">
+
+            <h2>Tecnologias Utilizadas</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <h3>Satélites</h3>
+                    <p>Monitoramento climático em tempo real.</p>
+                </div>
+
+                <div class="card">
+                    <h3>IA</h3>
+                    <p>Análise inteligente de riscos ambientais.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Sensores</h3>
+                    <p>Coleta contínua de dados críticos.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="beneficios" class="section">
+
+            <h2>Benefícios</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <h3>Alertas Rápidos</h3>
+                </div>
+
+                <div class="card">
+                    <h3>Proteção de Vidas</h3>
+                </div>
+
+                <div class="card">
+                    <h3>Redução de Danos</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="slideshow" class="section">
+
+            <h2>Monitoramento em Ação</h2>
+
+            <div class="slideshow-container">
+
+                <img
+                    id="slide-image"
+                    src="./src/assets/images/slide1.jpg"
+                    alt="Monitoramento realizado pela EcoSafe"
+                >
+
+            </div>
+
+        </section>
+
+        <section id="quiz" class="section">
+
+            <h2>Quiz EcoSafe</h2>
+
+            <div id="quiz-container">
+
+            </div>
+
+            <button id="btn-finalizar">
+                Finalizar Quiz
+            </button>
+
+            <p id="resultado"></p>
+
+        </section>
+
+        <section id="contato" class="section">
+
+            <h2>Receba Alertas</h2>
+
+            <form id="form-alerta">
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Nome"
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="E-mail"
+                >
+
+                <input
+                    type="text"
+                    id="cidade"
+                    placeholder="Cidade"
+                >
+
+                <button type="submit">
+                    Cadastrar
+                </button>
+
+            </form>
+
+            <p id="mensagem"></p>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <p>
+            EcoSafe • Global Solution 2026
+        </p>
+
+    </footer>
+
+    <script src="./src/js/slideshow.js"></script>
+    <script src="./src/js/quiz.js"></script>
+    <script src="./src/js/form.js"></script>
+    <script src="./src/js/tema.js"></script>
+
+</body>
+
+</html>
