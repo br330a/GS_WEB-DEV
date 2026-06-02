@@ -8,13 +8,14 @@ O sistema apresenta informações sobre o problema, a solução proposta, benef�
 
 ---
 
-## Acesso ao Projeto
+## Repositório
 
-Deploy:
-https://br330a.github.io/GS_WEB-DEV/
+[https://github.com/EcoSafe-GS/GS_WEB-DEV](https://github.com/EcoSafe-GS/GS_WEB-DEV)
 
-Repositório:
-https://github.com/br330a/GS_WEB-DEV
+---
+
+## Deploy
+[https://ecosafe-gs.github.io/GS_WEB-DEV/](https://ecosafe-gs.github.io/GS_WEB-DEV/)
 
 ---
 
@@ -81,13 +82,3 @@ GS_WEB-DEV
 - Nicolas Gomes de Almeida - RM 573079
 - Lucas Ferreira Rodrigues Silva - RM 569742
 
----
-
-## Repositório
-
-[https://github.com/EcoSafe-GS/GS_WEB-DEV](https://github.com/EcoSafe-GS/GS_WEB-DEV)
-
----
-
-## Deploy
-[https://ecosafe-gs.github.io/GS_WEB-DEV/](https://ecosafe-gs.github.io/GS_WEB-DEV/)
