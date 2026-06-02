@@ -633,11 +633,9 @@ p {
 
     text-align: center;
 
-    border-top: 1px solid rgba(0,0,0,0.15);
-
     background-color: #1F2937;
 
-    backdrop-filter: blur(10px);
+    border-top: 3px solid var(--primary-color);
 
 }
 
@@ -663,9 +661,7 @@ p {
 
 .footer-description{
 
-    color: var(--dark-color);
-
-    opacity: 0.8;
+    color: #E5E7EB;
 
     margin-bottom: 25px;
 
@@ -687,6 +683,8 @@ p {
 
     font-size: 0.95rem;
 
+    color: #F3F4F6;
+
 }
 
 .footer-team strong{
@@ -705,7 +703,7 @@ p {
 
     font-size: 0.85rem;
 
-    opacity: 0.6;
+    color: #9CA3AF;
 
 }
 
