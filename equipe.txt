@@ -1,0 +1,10 @@
+Integrantes:
+Bruno Gonçalves Minitti - RM 571981
+Nicolas Gomes de Almeida - RM 573079
+Lucas Ferreira Rodrigues Silva - RM 569742
+
+Repositório GitHub:
+https://github.com/br330a/GS_WEB-DEV.git
+
+Deploy:
+https://br330a.github.io/GS_WEB-DEV/
