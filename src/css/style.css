@@ -445,6 +445,74 @@ p {
 
 }
 
+/* formulario */
+
+#form-alerta{
+
+    max-width: 600px;
+
+    margin: 40px auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+}
+
+#form-alerta input{
+
+    padding: 15px;
+
+    border: 2px solid #d1d5db;
+
+    border-radius: 10px;
+
+    outline: none;
+
+    transition: 0.3s;
+
+}
+
+#form-alerta input:focus{
+
+    border-color: var(--secondary-color);
+
+}
+
+#form-alerta button{
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background-color: var(--primary-color);
+
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+#form-alerta button:hover{
+
+    background-color: var(--secondary-color);
+
+}
+
+#mensagem{
+
+    margin-top: 20px;
+
+    font-weight: 600;
+
+}
+
 
 @media(max-width: 900px){
 
