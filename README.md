@@ -85,9 +85,9 @@ GS_WEB-DEV
 
 ## Repositório
 
-[https://github.com/br330a/GS_WEB-DEV](https://github.com/br330a/GS_WEB-DEV)
+[https://github.com/EcoSafe-GS/GS_WEB-DEV](https://github.com/EcoSafe-GS/GS_WEB-DEV)
 
 ---
 
 ## Deploy
-[https://br330a.github.io/GS_WEB-DEV/](https://br330a.github.io/GS_WEB-DEV/)
+[https://ecosafe-gs.github.io/GS_WEB-DEV/](https://ecosafe-gs.github.io/GS_WEB-DEV/)
