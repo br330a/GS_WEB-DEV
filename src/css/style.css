@@ -624,7 +624,43 @@ p {
 }
 
 
-@media(max-width: 900px){
+@media(max-width: 768px){
+
+    /* NAVBAR */
+
+    .navbar{
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        padding: 15px 5%;
+
+    }
+
+    .nav-links{
+
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+
+    }
+
+    .theme-buttons{
+
+        justify-content: center;
+
+    }
+
+    /* HERO */
+
+    .hero{
+
+        padding: 120px 5% 60px;
+
+    }
 
     .hero-content{
 
@@ -632,12 +668,83 @@ p {
 
         text-align: center;
 
+        gap: 40px;
+
     }
 
     .hero h1{
 
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+
+    }
+
+    .hero p{
+
+        font-size: 1rem;
+
+    }
+
+    .hero-image img{
+
+        max-width: 100%;
+
+    }
+
+    /* SEÇÕES */
+
+    .section{
+
+        padding: 80px 5%;
+
+    }
+
+    .section h2{
+
+        font-size: 2rem;
+
+    }
+
+    /* CARDS */
+
+    .cards-container{
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .card{
+
+        width: 100%;
+
+        max-width: 350px;
+
+    }
+
+    /* SLIDESHOW */
+
+    .slideshow-container{
+
+        height: 250px;
+
+    }
+
+    /* QUIZ */
+
+    #quiz-container{
+
+        padding: 25px;
+
+    }
+
+    /* FORMULÁRIO */
+
+    #form-alerta{
+
+        width: 100%;
 
     }
 
 }
+
