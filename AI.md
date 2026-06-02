@@ -15,6 +15,7 @@ Foram realizadas consultas para auxiliar na implementação de funcionalidades e
 - Slideshow de imagens
 - Quiz interativo
 - Sistema de temas
+- README
 - Correção de erros e melhorias de código
 
 ## Adaptações
