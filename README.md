@@ -8,6 +8,16 @@ O sistema apresenta informações sobre o problema, a solução proposta, benef�
 
 ---
 
+## Acesso ao Projeto
+
+Deploy:
+https://br330a.github.io/GS_WEB-DEV/
+
+Repositório:
+https://github.com/br330a/GS_WEB-DEV
+
+---
+
 ## Funcionalidades
 
 - Slideshow com imagens relacionadas ao projeto
@@ -24,6 +34,44 @@ O sistema apresenta informações sobre o problema, a solução proposta, benef�
 - HTML5
 - CSS3
 - JavaScript
+
+---
+
+## Estrutura do Projeto
+
+```text
+GS_WEB-DEV
+│
+├── src
+│   ├── assets
+│   │   └── images
+│   │
+│   ├── css
+│   │   ├── reset.css
+│   │   └── style.css
+│   │
+│   └── js
+│       ├── slideshow.js
+│       ├── quiz.js
+│       ├── form.js
+│       └── tema.js
+│
+├── index.html
+├── README.md
+├── AI.md
+└── equipe.txt
+```
+
+---
+
+## Organização dos Arquivos
+
+- `index.html` → estrutura principal da aplicação.
+- `src/css` → arquivos de estilização.
+- `src/js` → funcionalidades JavaScript.
+- `src/assets/images` → imagens utilizadas no projeto.
+- `AI.md` → documentação do uso de Inteligência Artificial.
+- `equipe.txt` → informações dos integrantes.
 
 ---
 
