@@ -19,6 +19,12 @@ O sistema apresenta informações sobre o problema, a solução proposta, benef�
 
 ---
 
+## Objetivo da Solução
+
+O EcoSafe utiliza satélites e inteligência artificial para auxiliar na prevenção de desastres naturais.
+
+---
+
 ## Funcionalidades
 
 - Slideshow com imagens relacionadas ao projeto
